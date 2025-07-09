@@ -1,0 +1,93 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Django migrations (optional to ignore)
+**/migrations/__pycache__/
+**/migrations/*.pyc# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Django migrations (optional to ignore)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# SQLite database
+db.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Log files
+*.log
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.AppleDouble/
+.LSOverride
+*~
+
+# Static/media folders (optional, if generated during runtime)
+staticfiles/
+media/
+
+# Pipenv/Poetry
+Pipfile.lock
+poetry.lock
+
+# Test/coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Compiled C files
+*.so
+
+# Local Django settings
+local_settings.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite database
+db.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+env/
+venv/
+*.log
+ENV/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Static/media folders (optional, if generated during runtime)
+staticfiles/
+media/
