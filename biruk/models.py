@@ -1,6 +1,9 @@
 from django.db import models
 
+
+
 # Create your models here.
+
 #Home Section
 
 class Home(models.Model):
@@ -12,7 +15,7 @@ class Home(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.tittle
+        return self.name
 
 # About Section
 
