@@ -1,7 +1,5 @@
 from django.db import models
 
-
-
 # Create your models here.
 
 #Home Section
@@ -15,7 +13,7 @@ class Home(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.name
+        return self.title
 
 # About Section
 
@@ -56,7 +54,7 @@ class skills(models.Model):
         skill_name=models.CharField(max_length=50)    
 #Portfolio Section
 
-class portfolio(models.Model):
+class Portfolio(models.Model):
     picture = models.ImageField(upload_to='portfolio/')
     link = models.URLField(max_length=200)
 
