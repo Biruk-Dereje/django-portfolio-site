@@ -5,7 +5,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('biruk.urls')),  # Include the URLs from the biruk app
+    path('', include('biruk.urls')),  
 ]
 
 if settings.DEBUG:
