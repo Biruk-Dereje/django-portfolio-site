@@ -5,7 +5,7 @@ from django.db import models
 #Home Section
 
 class Home(models.Model):
-    title = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
     greeting_1 = models.CharField(max_length=5)
     greeting_2 = models.CharField(max_length=5)
     picture = models.ImageField(upload_to='picture/')
@@ -13,7 +13,7 @@ class Home(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.title
+        return self.name
 
 # About Section
 
